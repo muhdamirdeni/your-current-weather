@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Your Current Weather</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<h1 style="margin-bottom: 0;">YOUR CURRENT WEATHER <i style='font-size:30px' class='fas'>&#xf6c3;</i></h1>
+				<h4 style="margin-top: 0;color: rgb(165, 33, 33);" class="notification"></h4>
+				<!-- Main -->
+					<section id="main">
+						<header class="weather-container">
+							<!-- <span class="avatar"><img src="images/avatar.jpg" alt="" /></span> -->
+							<div class="weather-icon">
+								<img src="icons/unknown.png" alt="">
+							</div>
+							<div class="temperature-value">
+								<p>- °<span>C</span></p>
+							</div>
+							<div class="temperature-description">
+								<p> - </p>
+							</div>
+							<div class="location">
+								<p>-</p>
+							</div>
+
+						</header>
+
+					</section>
+
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy;Copyright 2020 - Wan Muhammad Amir</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+			<script src="app.js"></script>
+
+	</body>
+</html>
