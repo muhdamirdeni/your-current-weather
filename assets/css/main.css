@@ -10,18 +10,17 @@
 /* Icon (alt) */
 
 .weather-container{
-    width: 300px;
+    width: 100%;
     height: 380px;
 	background-color: #dbdbdb;
 	border-radius: 50px 4px;
-	align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    
 
 }
 
 .weather-icon{
-    width: 300px;
+    width: 100%;
     height: 128px;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .temperature-value{
-    width: 300px;
+    width: 100%;
     height:100px;
 }
 
